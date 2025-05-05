@@ -14,14 +14,39 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
+
+.header-nav a {
+    font-weight: 700;            
+  font-size: 1.1rem;           
+  color: white;                
+  background-color: #3498db;   
+  padding: 0.5rem 1rem;        
+  border-radius: 4px;          
+  text-decoration: none;       
+  transition: background-color 0.2s ease;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+
 .stats-container {
     display: flex;
+    align-items: center;
 }
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 
 .stats-card {
     background-color: #a8b0bc;
